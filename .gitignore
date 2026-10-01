@@ -1,0 +1,24 @@
+backend/.env
+.env
+.venv/
+__pycache__/
+*.pyc
+*.db
+.pytest_cache/
+node_modules/
+frontend/dist/
+backups/
+
+# Private settings and generated files
+.env
+.env.*
+!.env.example
+backups/
+*.sql
+*.db
+.DS_Store
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+frontend/dist/
